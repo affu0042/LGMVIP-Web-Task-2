@@ -25,7 +25,7 @@ const App = () => {
         <button onClick={getUsers}>Get Users</button>
       </nav>
       {loading ? (
-        <div className="loader">Loading... </div>
+        <div className="loader">Loading... <br/> Click on Grt Users </div>
       ) : (
         <div className="card-grid">
           {users.map((user) => (
